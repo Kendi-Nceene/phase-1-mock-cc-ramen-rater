@@ -16,13 +16,18 @@
   <!-- Ramen Menu -->
   <div id="ramen-menu">
     <!-- Ramen Images Here -->
+    <img class="detail-image" src="./assets/gyukotsu.jpg" alt="gyukotsu" />
+    <img class="detail-image" src="./assets/kojiro.jpg" alt="kojiro" />
+    <img class="detail-image" src="./assets/naruto.jpg" alt="naruto" />
+    <img class="detail-image" src="./assets/nirvana.jpg" alt="nirvana." />
+    <img class="detail-image" src="./assets/shoyu.jpg" alt="shoyu" />
   </div>
 
   <!-- Ramen Details -->
   <div id="ramen-detail">
     <img class="detail-image" src="./assets/image-placeholder.jpg" alt="Insert Name Here" />
-    <h2 class="name">Insert Name Here</h2>
-    <h3 class="restaurant">Insert Restaurant Here</h3>
+    <h2 class="name">Ramen Restaurant</h2>
+    <h3 class="restaurant">Ramen Restaurant</h3>
   </div>
 
   <h3>Rating:</h3>
@@ -49,7 +54,14 @@
     <textarea name="new-comment" id="new-comment"></textarea>
     <input type="submit" value="Create" />
   </form>
-
+  <form id="edit-ramen">
+    <h4>Update the Featured Ramen</h4>
+    <label for="rating">Rating: </label>
+    <input type="number" name="rating" id="new-rating" />
+    <label for="new-comment">Comment: </label>
+    <textarea name="new-comment" id="new-comment"></textarea>
+    <input type="submit" value="Update" />
+  </form>
 </body>
 
 </html>
