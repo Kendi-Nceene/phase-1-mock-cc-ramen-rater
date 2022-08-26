@@ -1,5 +1,5 @@
 // write your code here
-const baseUrl = 'http://localhost:3000/ramens'
+const url = 'http://localhost:3000/ramens'
 const ramenMenu = document.querySelector('#ramen-menu')
 
 // load up the dom
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 //fetch ramen data
 function displayRamen() {
-    fetch(baseUrl)
+    fetch(url)
     .then(res => res.json())
     .then(getAllRamen)
 }
